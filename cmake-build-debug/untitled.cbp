@@ -80,10 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/Date.cpp">
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/Article.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/Date.h">
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/Article.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Author.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Date.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Person.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Post.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/libraries/Author.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/libraries/Date.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/libraries/Person.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/libraries/Post.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/main.cpp">

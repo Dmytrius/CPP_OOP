@@ -1,6 +1,6 @@
-#include "Person.h"
+#include "../interfaces/Person.h"
 #include <iostream>
-#include "interfaces/Date.h"
+#include "../interfaces/Date.h"
 
 using namespace std;
 

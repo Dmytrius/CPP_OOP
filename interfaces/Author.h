@@ -11,9 +11,11 @@ private:
     Post post;
 
 public:
+    Author();
     Author(Person, Post);
 
+    Author();
 };
 
 
-#endif //UNTITLED_AUTHOR_H
+#endif

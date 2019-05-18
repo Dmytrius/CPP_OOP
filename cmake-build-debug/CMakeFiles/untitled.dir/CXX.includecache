@@ -6,13 +6,45 @@
 
 #IncludeRegexTransform: 
 
+D:/Users/boikodm/CLionProjects/untitled/Author.cpp
+Author.h
+D:/Users/boikodm/CLionProjects/untitled/Author.h
+
+D:/Users/boikodm/CLionProjects/untitled/Author.h
+Person.h
+D:/Users/boikodm/CLionProjects/untitled/Person.h
+Post.h
+D:/Users/boikodm/CLionProjects/untitled/Post.h
+
 D:/Users/boikodm/CLionProjects/untitled/Date.h
 iostream
 -
+
+D:/Users/boikodm/CLionProjects/untitled/Person.cpp
+Person.h
+D:/Users/boikodm/CLionProjects/untitled/Person.h
+iostream
+-
+Date.h
+D:/Users/boikodm/CLionProjects/untitled/Date.h
+
+D:/Users/boikodm/CLionProjects/untitled/Person.h
+string
+-
+Date.h
+D:/Users/boikodm/CLionProjects/untitled/Date.h
+
+D:/Users/boikodm/CLionProjects/untitled/Post.cpp
+Post.h
+D:/Users/boikodm/CLionProjects/untitled/Post.h
+
+D:/Users/boikodm/CLionProjects/untitled/Post.h
 
 D:/Users/boikodm/CLionProjects/untitled/main.cpp
 iostream
 -
 Date.h
 D:/Users/boikodm/CLionProjects/untitled/Date.h
+Person.h
+D:/Users/boikodm/CLionProjects/untitled/Person.h
 

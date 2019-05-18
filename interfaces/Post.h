@@ -7,4 +7,4 @@ enum post {assistent, senior_lecturer, docent, professor};
 };
 
 
-#endif //UNTITLED_POST_H
+#endif

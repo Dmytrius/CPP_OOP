@@ -69,34 +69,94 @@ CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\boikodm\CLionProjects\untitled\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
 
-CMakeFiles/untitled.dir/Date.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/Date.cpp.obj: ../Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\boikodm\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Date.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\Date.cpp.obj -c D:\Users\boikodm\CLionProjects\untitled\Date.cpp
+CMakeFiles/untitled.dir/libraries/Date.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libraries/Date.cpp.obj: ../libraries/Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\boikodm\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/libraries/Date.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\libraries\Date.cpp.obj -c D:\Users\boikodm\CLionProjects\untitled\libraries\Date.cpp
 
-CMakeFiles/untitled.dir/Date.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Date.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\boikodm\CLionProjects\untitled\Date.cpp > CMakeFiles\untitled.dir\Date.cpp.i
+CMakeFiles/untitled.dir/libraries/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/libraries/Date.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\boikodm\CLionProjects\untitled\libraries\Date.cpp > CMakeFiles\untitled.dir\libraries\Date.cpp.i
 
-CMakeFiles/untitled.dir/Date.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Date.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\boikodm\CLionProjects\untitled\Date.cpp -o CMakeFiles\untitled.dir\Date.cpp.s
+CMakeFiles/untitled.dir/libraries/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/libraries/Date.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\boikodm\CLionProjects\untitled\libraries\Date.cpp -o CMakeFiles\untitled.dir\libraries\Date.cpp.s
+
+CMakeFiles/untitled.dir/libraries/Person.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libraries/Person.cpp.obj: ../libraries/Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\boikodm\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/libraries/Person.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\libraries\Person.cpp.obj -c D:\Users\boikodm\CLionProjects\untitled\libraries\Person.cpp
+
+CMakeFiles/untitled.dir/libraries/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/libraries/Person.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\boikodm\CLionProjects\untitled\libraries\Person.cpp > CMakeFiles\untitled.dir\libraries\Person.cpp.i
+
+CMakeFiles/untitled.dir/libraries/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/libraries/Person.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\boikodm\CLionProjects\untitled\libraries\Person.cpp -o CMakeFiles\untitled.dir\libraries\Person.cpp.s
+
+CMakeFiles/untitled.dir/libraries/Author.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libraries/Author.cpp.obj: ../libraries/Author.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\boikodm\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/libraries/Author.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\libraries\Author.cpp.obj -c D:\Users\boikodm\CLionProjects\untitled\libraries\Author.cpp
+
+CMakeFiles/untitled.dir/libraries/Author.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/libraries/Author.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\boikodm\CLionProjects\untitled\libraries\Author.cpp > CMakeFiles\untitled.dir\libraries\Author.cpp.i
+
+CMakeFiles/untitled.dir/libraries/Author.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/libraries/Author.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\boikodm\CLionProjects\untitled\libraries\Author.cpp -o CMakeFiles\untitled.dir\libraries\Author.cpp.s
+
+CMakeFiles/untitled.dir/libraries/Post.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libraries/Post.cpp.obj: ../libraries/Post.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\boikodm\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/libraries/Post.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\libraries\Post.cpp.obj -c D:\Users\boikodm\CLionProjects\untitled\libraries\Post.cpp
+
+CMakeFiles/untitled.dir/libraries/Post.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/libraries/Post.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\boikodm\CLionProjects\untitled\libraries\Post.cpp > CMakeFiles\untitled.dir\libraries\Post.cpp.i
+
+CMakeFiles/untitled.dir/libraries/Post.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/libraries/Post.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\boikodm\CLionProjects\untitled\libraries\Post.cpp -o CMakeFiles\untitled.dir\libraries\Post.cpp.s
+
+CMakeFiles/untitled.dir/Article.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Article.cpp.obj: ../Article.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\boikodm\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled.dir/Article.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\Article.cpp.obj -c D:\Users\boikodm\CLionProjects\untitled\Article.cpp
+
+CMakeFiles/untitled.dir/Article.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Article.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\boikodm\CLionProjects\untitled\Article.cpp > CMakeFiles\untitled.dir\Article.cpp.i
+
+CMakeFiles/untitled.dir/Article.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Article.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\boikodm\CLionProjects\untitled\Article.cpp -o CMakeFiles\untitled.dir\Article.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.obj" \
-"CMakeFiles/untitled.dir/Date.cpp.obj"
+"CMakeFiles/untitled.dir/libraries/Date.cpp.obj" \
+"CMakeFiles/untitled.dir/libraries/Person.cpp.obj" \
+"CMakeFiles/untitled.dir/libraries/Author.cpp.obj" \
+"CMakeFiles/untitled.dir/libraries/Post.cpp.obj" \
+"CMakeFiles/untitled.dir/Article.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles/untitled.dir/main.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/Date.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/libraries/Date.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/libraries/Person.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/libraries/Author.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/libraries/Post.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Article.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Users\boikodm\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Users\boikodm\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
