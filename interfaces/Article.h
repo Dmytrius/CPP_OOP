@@ -1,8 +1,7 @@
 #ifndef UNTITLED_ARTICLE_H
 #define UNTITLED_ARTICLE_H
 
-
-#include "interfaces/Author.h"
+#include "Author.h"
 
 class Article {
 private:
@@ -35,6 +34,5 @@ public:
 
     void setDate(const Date &date);
 };
-
 
 #endif

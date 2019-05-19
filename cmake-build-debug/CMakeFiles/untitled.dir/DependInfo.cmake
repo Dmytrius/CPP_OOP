@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Users/boikodm/CLionProjects/untitled/Article.cpp" "D:/Users/boikodm/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Article.cpp.obj"
+  "D:/Users/boikodm/CLionProjects/untitled/interfaces/Journal.cpp" "D:/Users/boikodm/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/interfaces/Journal.cpp.obj"
   "D:/Users/boikodm/CLionProjects/untitled/libraries/Author.cpp" "D:/Users/boikodm/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/libraries/Author.cpp.obj"
   "D:/Users/boikodm/CLionProjects/untitled/libraries/Date.cpp" "D:/Users/boikodm/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/libraries/Date.cpp.obj"
   "D:/Users/boikodm/CLionProjects/untitled/libraries/Person.cpp" "D:/Users/boikodm/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/libraries/Person.cpp.obj"

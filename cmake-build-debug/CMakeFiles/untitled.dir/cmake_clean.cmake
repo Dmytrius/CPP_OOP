@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/libraries/Author.cpp.obj"
   "CMakeFiles/untitled.dir/libraries/Post.cpp.obj"
   "CMakeFiles/untitled.dir/Article.cpp.obj"
+  "CMakeFiles/untitled.dir/interfaces/Journal.cpp.obj"
   "untitled.pdb"
   "untitled.exe"
   "untitled.exe.manifest"

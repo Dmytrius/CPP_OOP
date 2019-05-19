@@ -12,10 +12,7 @@ private:
     int year;
 
 public:
-    Date(int, int, int);
-    void setDate(int i, int i1, int i2);
-    void getDate();
+    Date(int day, int month, int year);
 };
-
 
 #endif

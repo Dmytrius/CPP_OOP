@@ -1,7 +1,6 @@
 #ifndef UNTITLED_AUTHOR_H
 #define UNTITLED_AUTHOR_H
 
-
 #include "Person.h"
 #include "Post.h"
 
@@ -11,11 +10,15 @@ private:
     Post post;
 
 public:
-    Author();
-    Author(Person, Post);
+    Author(const Person &person, const Post &post);
 
-    Author();
+    const Person &getPerson() const;
+
+    void setPerson(const Person &person);
+
+    const Post &getPost() const;
+
+    void setPost(const Post &post);
 };
-
 
 #endif

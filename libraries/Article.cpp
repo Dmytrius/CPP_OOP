@@ -1,4 +1,4 @@
-#include "Article.h"
+#include "../interfaces/Article.h"
 
 Article::Article(const Author &author, const string &title, int namberOfPages, float namberOfPapers, const Date &date)
         : author(author), title(title), namberOfPages(namberOfPages), namberOfPapers(namberOfPapers), date(date) {}

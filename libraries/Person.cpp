@@ -4,18 +4,29 @@
 
 using namespace std;
 
-Person::Person(string surname, string name, Date date) {
-    setPerson(surname, name, date);
+Person::Person(const string &surname, const string &name, const Date &date) : surname(surname), name(name),
+                                                                              date(date) {}
+
+const string &Person::getSurname() const {
+    return surname;
 }
 
-void Person::setPerson(string surname, string name, Date date) {
-    surname = surname;
-    name = name;
-    date = date;
+void Person::setSurname(const string &surname) {
+    Person::surname = surname;
 }
 
-void Person::getPerson() {
-    cout << "Person: " << surname + " " << name <<endl;
-    cout << "date birthday: ";
-    date.getDate();
+const string &Person::getName() const {
+    return name;
+}
+
+void Person::setName(const string &name) {
+    Person::name = name;
+}
+
+const Date &Person::getDate() const {
+    return date;
+}
+
+void Person::setDate(const Date &date) {
+    Person::date = date;
 }

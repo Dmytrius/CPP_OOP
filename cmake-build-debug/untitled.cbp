@@ -92,6 +92,12 @@
 		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Date.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Journal.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Journal.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Person.h">
 			<Option target="untitled"/>
 		</Unit>

@@ -149,6 +149,33 @@ Article.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Article.cpp.s
 .PHONY : Article.cpp.s
 
+interfaces/Journal.obj: interfaces/Journal.cpp.obj
+
+.PHONY : interfaces/Journal.obj
+
+# target to build an object file
+interfaces/Journal.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/interfaces/Journal.cpp.obj
+.PHONY : interfaces/Journal.cpp.obj
+
+interfaces/Journal.i: interfaces/Journal.cpp.i
+
+.PHONY : interfaces/Journal.i
+
+# target to preprocess a source file
+interfaces/Journal.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/interfaces/Journal.cpp.i
+.PHONY : interfaces/Journal.cpp.i
+
+interfaces/Journal.s: interfaces/Journal.cpp.s
+
+.PHONY : interfaces/Journal.s
+
+# target to generate assembly for a file
+interfaces/Journal.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/interfaces/Journal.cpp.s
+.PHONY : interfaces/Journal.cpp.s
+
 libraries/Author.obj: libraries/Author.cpp.obj
 
 .PHONY : libraries/Author.obj
@@ -296,6 +323,9 @@ help:
 	@echo ... Article.obj
 	@echo ... Article.i
 	@echo ... Article.s
+	@echo ... interfaces/Journal.obj
+	@echo ... interfaces/Journal.i
+	@echo ... interfaces/Journal.s
 	@echo ... libraries/Author.obj
 	@echo ... libraries/Author.i
 	@echo ... libraries/Author.s

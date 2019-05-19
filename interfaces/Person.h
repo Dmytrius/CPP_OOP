@@ -3,7 +3,6 @@
 
 #include <string>
 #include "Date.h"
-
 using namespace std;
 
 class Person {
@@ -13,10 +12,19 @@ private:
     Date date;
 
 public:
-    Person(string, string, Date);
-    void setPerson(string surname, string name, Date date);
-    void getPerson();
+    Person(const string &surname, const string &name, const Date &date);
+
+    const string &getSurname() const;
+
+    void setSurname(const string &surname);
+
+    const string &getName() const;
+
+    void setName(const string &name);
+
+    const Date &getDate() const;
+
+    void setDate(const Date &date);
 };
 
-
-#endif //UNTITLED_PERSON_H
+#endif
