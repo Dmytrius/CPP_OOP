@@ -1,4 +1,4 @@
-#include "../libraries/Journal.h"
+#include "../interfaces/Journal.h"
 
 Journal::Journal(const list<Article> &listArticles, const Date &date, int numberPages, const list<Author> &authors)
         : listArticles(listArticles), date(date), numberPages(numberPages), authors(authors) {}

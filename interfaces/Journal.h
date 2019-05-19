@@ -4,7 +4,7 @@
 using namespace std;
 
 #include <list>
-#include "../interfaces/Article.h"
+#include "Article.h"
 
 class Journal {
 private:
