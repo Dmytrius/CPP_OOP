@@ -80,19 +80,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/Article.cpp">
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/implementation/Article.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/Article.h">
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/implementation/Author.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/implementation/Date.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/implementation/Journal.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/implementation/Person.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/implementation/Post.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Article.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Author.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Date.h">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Journal.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Journal.h">
@@ -102,18 +114,6 @@
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/interfaces/Post.h">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/libraries/Author.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/libraries/Date.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/libraries/Person.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/libraries/Post.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="D:/Users/boikodm/CLionProjects/untitled/main.cpp">

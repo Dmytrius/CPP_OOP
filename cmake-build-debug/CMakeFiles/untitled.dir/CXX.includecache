@@ -6,45 +6,75 @@
 
 #IncludeRegexTransform: 
 
-D:/Users/boikodm/CLionProjects/untitled/Author.cpp
+D:/Users/boikodm/CLionProjects/untitled/implementation/Article.cpp
+../interfaces/Article.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Article.h
+
+D:/Users/boikodm/CLionProjects/untitled/implementation/Author.cpp
+../interfaces/Author.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Author.h
+
+D:/Users/boikodm/CLionProjects/untitled/implementation/Date.cpp
+../interfaces/Date.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Date.h
+iostream
+-
+
+D:/Users/boikodm/CLionProjects/untitled/implementation/Journal.cpp
+../interfaces/Journal.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Journal.h
+
+D:/Users/boikodm/CLionProjects/untitled/implementation/Person.cpp
+../interfaces/Person.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Person.h
+iostream
+-
+../interfaces/Date.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Date.h
+
+D:/Users/boikodm/CLionProjects/untitled/implementation/Post.cpp
+../interfaces/Post.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Post.h
+
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Article.h
 Author.h
-D:/Users/boikodm/CLionProjects/untitled/Author.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Author.h
 
-D:/Users/boikodm/CLionProjects/untitled/Author.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Author.h
 Person.h
-D:/Users/boikodm/CLionProjects/untitled/Person.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Person.h
 Post.h
-D:/Users/boikodm/CLionProjects/untitled/Post.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Post.h
 
-D:/Users/boikodm/CLionProjects/untitled/Date.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Date.h
 iostream
 -
 
-D:/Users/boikodm/CLionProjects/untitled/Person.cpp
-Person.h
-D:/Users/boikodm/CLionProjects/untitled/Person.h
-iostream
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Journal.h
+list
 -
-Date.h
-D:/Users/boikodm/CLionProjects/untitled/Date.h
+map
+-
+Article.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Article.h
 
-D:/Users/boikodm/CLionProjects/untitled/Person.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Person.h
 string
 -
 Date.h
-D:/Users/boikodm/CLionProjects/untitled/Date.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Date.h
 
-D:/Users/boikodm/CLionProjects/untitled/Post.cpp
-Post.h
-D:/Users/boikodm/CLionProjects/untitled/Post.h
-
-D:/Users/boikodm/CLionProjects/untitled/Post.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Post.h
 
 D:/Users/boikodm/CLionProjects/untitled/main.cpp
 iostream
 -
-Date.h
-D:/Users/boikodm/CLionProjects/untitled/Date.h
-Person.h
-D:/Users/boikodm/CLionProjects/untitled/Person.h
+interfaces/Date.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Date.h
+interfaces/Person.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Person.h
+interfaces/Author.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Author.h
+interfaces/Article.h
+D:/Users/boikodm/CLionProjects/untitled/interfaces/Article.h
 

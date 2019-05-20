@@ -1,7 +1,8 @@
 #include "../interfaces/Journal.h"
 
-Journal::Journal(const list<Article> &listArticles, const Date &date, int numberPages, const list<Author> &authors)
-        : listArticles(listArticles), date(date), numberPages(numberPages), authors(authors) {}
+Journal::Journal(const list<Article> &listArticles, const Date &date, int numberPages,
+                 const map<Author, Article> &authors) : listArticles(listArticles), date(date),
+                                                        numberPages(numberPages), authors(authors) {}
 
 const list<Article> &Journal::getListArticles() const {
     return listArticles;
@@ -27,10 +28,10 @@ void Journal::setNumberPages(int numberPages) {
     Journal::numberPages = numberPages;
 }
 
-const list<Author> &Journal::getAuthors() const {
+const map<Author, Article> &Journal::getAuthors() const {
     return authors;
 }
 
-void Journal::setAuthors(const list<Author> &authors) {
+void Journal::setAuthors(const map<Author, Article> &authors) {
     Journal::authors = authors;
 }

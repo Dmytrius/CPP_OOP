@@ -122,167 +122,167 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-Article.obj: Article.cpp.obj
+implementation/Article.obj: implementation/Article.cpp.obj
 
-.PHONY : Article.obj
-
-# target to build an object file
-Article.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Article.cpp.obj
-.PHONY : Article.cpp.obj
-
-Article.i: Article.cpp.i
-
-.PHONY : Article.i
-
-# target to preprocess a source file
-Article.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Article.cpp.i
-.PHONY : Article.cpp.i
-
-Article.s: Article.cpp.s
-
-.PHONY : Article.s
-
-# target to generate assembly for a file
-Article.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Article.cpp.s
-.PHONY : Article.cpp.s
-
-interfaces/Journal.obj: interfaces/Journal.cpp.obj
-
-.PHONY : interfaces/Journal.obj
+.PHONY : implementation/Article.obj
 
 # target to build an object file
-interfaces/Journal.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/interfaces/Journal.cpp.obj
-.PHONY : interfaces/Journal.cpp.obj
+implementation/Article.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Article.cpp.obj
+.PHONY : implementation/Article.cpp.obj
 
-interfaces/Journal.i: interfaces/Journal.cpp.i
+implementation/Article.i: implementation/Article.cpp.i
 
-.PHONY : interfaces/Journal.i
+.PHONY : implementation/Article.i
 
 # target to preprocess a source file
-interfaces/Journal.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/interfaces/Journal.cpp.i
-.PHONY : interfaces/Journal.cpp.i
+implementation/Article.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Article.cpp.i
+.PHONY : implementation/Article.cpp.i
 
-interfaces/Journal.s: interfaces/Journal.cpp.s
+implementation/Article.s: implementation/Article.cpp.s
 
-.PHONY : interfaces/Journal.s
+.PHONY : implementation/Article.s
 
 # target to generate assembly for a file
-interfaces/Journal.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/interfaces/Journal.cpp.s
-.PHONY : interfaces/Journal.cpp.s
+implementation/Article.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Article.cpp.s
+.PHONY : implementation/Article.cpp.s
 
-libraries/Author.obj: libraries/Author.cpp.obj
+implementation/Author.obj: implementation/Author.cpp.obj
 
-.PHONY : libraries/Author.obj
+.PHONY : implementation/Author.obj
 
 # target to build an object file
-libraries/Author.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Author.cpp.obj
-.PHONY : libraries/Author.cpp.obj
+implementation/Author.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Author.cpp.obj
+.PHONY : implementation/Author.cpp.obj
 
-libraries/Author.i: libraries/Author.cpp.i
+implementation/Author.i: implementation/Author.cpp.i
 
-.PHONY : libraries/Author.i
+.PHONY : implementation/Author.i
 
 # target to preprocess a source file
-libraries/Author.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Author.cpp.i
-.PHONY : libraries/Author.cpp.i
+implementation/Author.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Author.cpp.i
+.PHONY : implementation/Author.cpp.i
 
-libraries/Author.s: libraries/Author.cpp.s
+implementation/Author.s: implementation/Author.cpp.s
 
-.PHONY : libraries/Author.s
+.PHONY : implementation/Author.s
 
 # target to generate assembly for a file
-libraries/Author.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Author.cpp.s
-.PHONY : libraries/Author.cpp.s
+implementation/Author.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Author.cpp.s
+.PHONY : implementation/Author.cpp.s
 
-libraries/Date.obj: libraries/Date.cpp.obj
+implementation/Date.obj: implementation/Date.cpp.obj
 
-.PHONY : libraries/Date.obj
+.PHONY : implementation/Date.obj
 
 # target to build an object file
-libraries/Date.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Date.cpp.obj
-.PHONY : libraries/Date.cpp.obj
+implementation/Date.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Date.cpp.obj
+.PHONY : implementation/Date.cpp.obj
 
-libraries/Date.i: libraries/Date.cpp.i
+implementation/Date.i: implementation/Date.cpp.i
 
-.PHONY : libraries/Date.i
+.PHONY : implementation/Date.i
 
 # target to preprocess a source file
-libraries/Date.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Date.cpp.i
-.PHONY : libraries/Date.cpp.i
+implementation/Date.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Date.cpp.i
+.PHONY : implementation/Date.cpp.i
 
-libraries/Date.s: libraries/Date.cpp.s
+implementation/Date.s: implementation/Date.cpp.s
 
-.PHONY : libraries/Date.s
+.PHONY : implementation/Date.s
 
 # target to generate assembly for a file
-libraries/Date.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Date.cpp.s
-.PHONY : libraries/Date.cpp.s
+implementation/Date.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Date.cpp.s
+.PHONY : implementation/Date.cpp.s
 
-libraries/Person.obj: libraries/Person.cpp.obj
+implementation/Journal.obj: implementation/Journal.cpp.obj
 
-.PHONY : libraries/Person.obj
+.PHONY : implementation/Journal.obj
 
 # target to build an object file
-libraries/Person.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Person.cpp.obj
-.PHONY : libraries/Person.cpp.obj
+implementation/Journal.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Journal.cpp.obj
+.PHONY : implementation/Journal.cpp.obj
 
-libraries/Person.i: libraries/Person.cpp.i
+implementation/Journal.i: implementation/Journal.cpp.i
 
-.PHONY : libraries/Person.i
+.PHONY : implementation/Journal.i
 
 # target to preprocess a source file
-libraries/Person.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Person.cpp.i
-.PHONY : libraries/Person.cpp.i
+implementation/Journal.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Journal.cpp.i
+.PHONY : implementation/Journal.cpp.i
 
-libraries/Person.s: libraries/Person.cpp.s
+implementation/Journal.s: implementation/Journal.cpp.s
 
-.PHONY : libraries/Person.s
+.PHONY : implementation/Journal.s
 
 # target to generate assembly for a file
-libraries/Person.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Person.cpp.s
-.PHONY : libraries/Person.cpp.s
+implementation/Journal.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Journal.cpp.s
+.PHONY : implementation/Journal.cpp.s
 
-libraries/Post.obj: libraries/Post.cpp.obj
+implementation/Person.obj: implementation/Person.cpp.obj
 
-.PHONY : libraries/Post.obj
+.PHONY : implementation/Person.obj
 
 # target to build an object file
-libraries/Post.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Post.cpp.obj
-.PHONY : libraries/Post.cpp.obj
+implementation/Person.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Person.cpp.obj
+.PHONY : implementation/Person.cpp.obj
 
-libraries/Post.i: libraries/Post.cpp.i
+implementation/Person.i: implementation/Person.cpp.i
 
-.PHONY : libraries/Post.i
+.PHONY : implementation/Person.i
 
 # target to preprocess a source file
-libraries/Post.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Post.cpp.i
-.PHONY : libraries/Post.cpp.i
+implementation/Person.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Person.cpp.i
+.PHONY : implementation/Person.cpp.i
 
-libraries/Post.s: libraries/Post.cpp.s
+implementation/Person.s: implementation/Person.cpp.s
 
-.PHONY : libraries/Post.s
+.PHONY : implementation/Person.s
 
 # target to generate assembly for a file
-libraries/Post.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/libraries/Post.cpp.s
-.PHONY : libraries/Post.cpp.s
+implementation/Person.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Person.cpp.s
+.PHONY : implementation/Person.cpp.s
+
+implementation/Post.obj: implementation/Post.cpp.obj
+
+.PHONY : implementation/Post.obj
+
+# target to build an object file
+implementation/Post.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Post.cpp.obj
+.PHONY : implementation/Post.cpp.obj
+
+implementation/Post.i: implementation/Post.cpp.i
+
+.PHONY : implementation/Post.i
+
+# target to preprocess a source file
+implementation/Post.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Post.cpp.i
+.PHONY : implementation/Post.cpp.i
+
+implementation/Post.s: implementation/Post.cpp.s
+
+.PHONY : implementation/Post.s
+
+# target to generate assembly for a file
+implementation/Post.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/implementation/Post.cpp.s
+.PHONY : implementation/Post.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -320,24 +320,24 @@ help:
 	@echo ... edit_cache
 	@echo ... untitled
 	@echo ... rebuild_cache
-	@echo ... Article.obj
-	@echo ... Article.i
-	@echo ... Article.s
-	@echo ... interfaces/Journal.obj
-	@echo ... interfaces/Journal.i
-	@echo ... interfaces/Journal.s
-	@echo ... libraries/Author.obj
-	@echo ... libraries/Author.i
-	@echo ... libraries/Author.s
-	@echo ... libraries/Date.obj
-	@echo ... libraries/Date.i
-	@echo ... libraries/Date.s
-	@echo ... libraries/Person.obj
-	@echo ... libraries/Person.i
-	@echo ... libraries/Person.s
-	@echo ... libraries/Post.obj
-	@echo ... libraries/Post.i
-	@echo ... libraries/Post.s
+	@echo ... implementation/Article.obj
+	@echo ... implementation/Article.i
+	@echo ... implementation/Article.s
+	@echo ... implementation/Author.obj
+	@echo ... implementation/Author.i
+	@echo ... implementation/Author.s
+	@echo ... implementation/Date.obj
+	@echo ... implementation/Date.i
+	@echo ... implementation/Date.s
+	@echo ... implementation/Journal.obj
+	@echo ... implementation/Journal.i
+	@echo ... implementation/Journal.s
+	@echo ... implementation/Person.obj
+	@echo ... implementation/Person.i
+	@echo ... implementation/Person.s
+	@echo ... implementation/Post.obj
+	@echo ... implementation/Post.i
+	@echo ... implementation/Post.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
