@@ -3,28 +3,16 @@
 
 using namespace std;
 
-Date::Date(int day, int month, int year) : day(day), month(month), year(year) {}
+Date::Date(const string &date) : date(date) {}
 
-int Date::getDay() const {
-    return day;
+const string &Date::getDate() const {
+    return date;
 }
 
-void Date::setDay(int day) {
-    Date::day = day;
+void Date::setDate(const string &date) {
+    Date::date = date;
 }
 
-int Date::getMonth() const {
-    return month;
-}
+Date::~Date() {
 
-void Date::setMonth(int month) {
-    Date::month = month;
-}
-
-int Date::getYear() const {
-    return year;
-}
-
-void Date::setYear(int year) {
-    Date::year = year;
 }

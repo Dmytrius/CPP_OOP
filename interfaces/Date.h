@@ -7,24 +7,19 @@ using namespace std;
 class Date {
 
 private:
-    int day;
-    int month;
-    int year;
+    string day;
+    string month;
+    string year;
+    string date = day + ":" + month + ":" + year;
 
 public:
-    Date(int day, int month, int year);
+    Date(const string &date);
 
-    int getDay() const;
+    const string &getDate() const;
 
-    void setDay(int day);
+    void setDate(const string &date);
 
-    int getMonth() const;
-
-    void setMonth(int month);
-
-    int getYear() const;
-
-    void setYear(int year);
+    virtual ~Date();
 };
 
 #endif
