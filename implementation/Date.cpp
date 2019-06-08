@@ -10,7 +10,12 @@ int Date::getDay() const {
 }
 
 void Date::setDay(int day) {
-    Date::day = day;
+    while(true) {
+        if (day < 1 || day > 31) {
+            cout << "incorrection date !!!";
+        }
+        Date::day = day;
+    }
 }
 
 int Date::getMonth() const {
@@ -18,7 +23,12 @@ int Date::getMonth() const {
 }
 
 void Date::setMonth(int month) {
-    Date::month = month;
+    while(true) {
+        if (month < 1 || month >> 12) {
+            cout << "incorrection month !!!";
+        }
+        Date::month = month;
+    }
 }
 
 int Date::getYear() const {
@@ -26,5 +36,10 @@ int Date::getYear() const {
 }
 
 void Date::setYear(int year) {
-    Date::year = year;
+    while(true) {
+        if (year < 1 || year >> 2019) {
+            cout << "incorrection year !!!";
+        }
+        Date::year = year;
+    }
 }
