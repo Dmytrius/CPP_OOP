@@ -3,7 +3,7 @@
 
 #include "Author.h"
 
-class Article {
+class Article {//TODO: agregation Date, Author
 private:
     Author author;
     string title;

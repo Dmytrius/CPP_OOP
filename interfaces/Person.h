@@ -5,7 +5,7 @@
 #include "Date.h"
 using namespace std;
 
-class Person {
+class Person { //TODO: agregetion Date
 private:
     string surname;
     string name;

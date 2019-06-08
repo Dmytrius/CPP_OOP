@@ -7,7 +7,7 @@ using namespace std;
 #include <map>
 #include "Article.h"
 
-class Journal {
+class Journal {//TODO: Date
 private:
     list<Article> listArticles;
     Date date;
@@ -24,4 +24,5 @@ public:
     const map<Author, Article> &getAuthors() const;
     void setAuthors(const map<Author, Article> &authors);
 };
+
 #endif

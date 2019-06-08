@@ -4,7 +4,7 @@
 #include "Person.h"
 #include "Post.h"
 
-class Author {
+class Author {// TODO: agregation Post
 private:
     Person person;
     Post post;
