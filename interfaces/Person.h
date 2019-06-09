@@ -8,11 +8,11 @@ using namespace std;
 class Person : public Date{
 private:
     string surname;
-    string name;
 
 protected:
     Person(const string surnamePerson, const string namePerson, const Date dateBirthday);
 
+    string name;
 public:
     virtual ~Person();
 

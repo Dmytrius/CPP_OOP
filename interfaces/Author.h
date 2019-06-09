@@ -4,25 +4,27 @@
 #include "Person.h"
 #include "Post.h"
 
-class Author : public Person{
+class Author : public Person {
 private:
-
-    Post *post;
+    Post post;
 public:
+    Author();
+
+    Author(const Person &person, const Date &dateBirthday);
+
     virtual ~Author();
 
-public:
-    void setPost1(Post *post);
+    void getPost();
 
-public:
-    Author(const string &surname, const string &name, const Date &date, Post *post);
+    string getAuthor();
 
-public:
-    Author(const Person &person, const Post &post);
+    void setPerson(Person *pPerson);
 
-    const Post &getPost() const;
+    void setPost(Post post);
 
-    void setPost(const Post &post);
+    Author(Person *pPerson);
+
+    Author(Person *pPerson, Date *pDate);
 };
 
 #endif

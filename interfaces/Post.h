@@ -2,13 +2,11 @@
 #define UNTITLED_POST_H
 
 
-class Post {
-enum post {
-    assistent,
-    senior_lecturer,
-    docent,
-    professor
-    };
+enum Post {
+    ASSISTENT,
+    SENIOR_LECTURER,
+    DOCENT,
+    PROFESSOR
 };
 
 #endif
