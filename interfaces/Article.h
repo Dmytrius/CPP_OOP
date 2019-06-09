@@ -10,20 +10,7 @@ private:
     float namberOfPapers;
 
 public:
-    Article(const Author &author, const string &title, int namberOfPages, float namberOfPapers, const Date &date);
-
-    const string &getTitle() const;
-
-    void setTitle(const string &title);
-
-    int getNamberOfPages() const;
-
-    void setNamberOfPages(int namberOfPages);
-
-    float getNamberOfPapers() const;
-
-    void setNamberOfPapers(float namberOfPapers);
-
+    
 };
 
 #endif
