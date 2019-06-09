@@ -5,24 +5,30 @@
 
 using namespace std;
 
-ofstream outf("File.txt", ios::app);
 
-void File::writeFile(string str) {
-    if (!outf) {
+
+void File::writeFile(string nameFile) {
+    fstream iof("File.txt", ios::app);
+    if (!iof) {
         cerr << "Uh oh, File.txt could not be opened for writing!" << endl;
         exit(1);
     }
-    outf << str << endl;
-    outf.close();
+    iof << nameFile << endl;
+    iof.close();
 }
 
 void File::readFile(string nameFile) {
-    if (!outf) {
+    fstream iof(nameFile, ios::in);
+    if (!iof) {
         cerr << "Uh oh, File.txt could not be opened for writing!" << endl;
         exit(1);
     }
-    outf.open(nameFile, ios::app);
-    outf.close();
+    while (iof) {
+        string input;
+        getline(iof, input);
+        cout << input << endl;
+    }
+    iof.close();
 }
 
 
