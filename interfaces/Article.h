@@ -10,7 +10,21 @@ private:
     float namberOfPapers;
 
 public:
-    
+    Article(Person *pPerson, Date *pDate, const string &title, int namberOfPages, float namberOfPapers);
+
+    virtual ~Article();
+
+    const string &getTitle() const;
+
+    void setTitle(const string &title);
+
+    int getNamberOfPages() const;
+
+    void setNamberOfPages(int namberOfPages);
+
+    float getNamberOfPapers() const;
+
+    void setNamberOfPapers(float namberOfPapers);
 };
 
 #endif
