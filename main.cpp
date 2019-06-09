@@ -3,8 +3,7 @@
 #include "interfaces/Date.h"
 #include "interfaces/Person.h"
 #include "interfaces/Author.h"
-#include "controllers/WriteFile.h"
-#include "controllers/ReadFile.h"
+#include "controllers/File.h"
 
 using namespace std;
 
@@ -35,7 +34,10 @@ int main(int argc, char *argv[]) {
     person->setSurname(surname);
     author->setPerson(person);
     author->setPost(ASSISTENT);
-    WriteFile::writeFile(person->getName() + " " + person->getSurname() + " " + "BrithDay: " + date->getDate());
-    WriteFile::writeFile("Author: " + author->getName() + " " + author->getSurname() + " " + author->getDate());// + " " + author->getPost());
+    File::writeFile(person->getName() + " " + person->getSurname() + " " + "Brithday: " + date->getDate());
+//    File::writeFile("Author: " + author->getName() + " " + author->getSurname() + " " + author->getDate());
+//    File::writeFile("Post: " + author->getPost());
+    File::readFile("File.txt");
+
     return 0;
 }

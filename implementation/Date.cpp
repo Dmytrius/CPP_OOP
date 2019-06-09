@@ -52,6 +52,6 @@ string Date::getDate() const {
 }
 
 Date::~Date() {
-    cout << "delete Date";
+    cout << "delete Date" << endl;
 }
 

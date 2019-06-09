@@ -25,7 +25,7 @@ void Person::setName(const string &name) {
 }
 
 Person::~Person() {
-    cout << "delete Person";
+    cout << "delete Person" << endl;
 }
 
 

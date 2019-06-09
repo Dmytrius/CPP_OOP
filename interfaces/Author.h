@@ -14,17 +14,17 @@ public:
 
     virtual ~Author();
 
-    void getPost();
+    Post getPost();
 
     string getAuthor();
 
-    void setPerson(Person *pPerson);
-
-    void setPost(Post post);
+    Post setPost(Post post);
 
     Author(Person *pPerson);
 
     Author(Person *pPerson, Date *pDate);
+
+    Person setPerson(Person *person);
 };
 
 #endif

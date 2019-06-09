@@ -3,13 +3,11 @@
 
 Author::Author(Person *pPerson, Date *date) {}
 
-void Author::setPost(Post post){
-    this->post=post;
-}
+Post Author::setPost(Post post){return post;}
 
-void Author::getPost(){}
+Post Author::getPost(){ return post;}
 
-void Author::setPerson(Person *pPerson) {}
+Person Author::setPerson(Person *person) { return *person;}
 
 void getAuthor(){}
 
