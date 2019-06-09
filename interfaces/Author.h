@@ -4,10 +4,18 @@
 #include "Person.h"
 #include "Post.h"
 
-class Author : public Person{// TODO: agregation Post
+class Author : public Person{
 private:
 
     Post *post;
+public:
+    virtual ~Author();
+
+public:
+    void setPost1(Post *post);
+
+public:
+    Author(const string &surname, const string &name, const Date &date, Post *post);
 
 public:
     Author(const Person &person, const Post &post);

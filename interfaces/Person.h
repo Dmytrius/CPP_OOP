@@ -5,14 +5,16 @@
 #include "Date.h"
 using namespace std;
 
-class Person { //TODO: agregetion Date
+class Person : public Date{
 private:
     string surname;
     string name;
-    Date date;
+
+protected:
+    Person(const string surnamePerson, const string namePerson, const Date dateBirthday);
 
 public:
-    Person(const string &surname, const string &name, const Date &date);
+    virtual ~Person();
 
     const string &getSurname() const;
 
@@ -22,9 +24,7 @@ public:
 
     void setName(const string &name);
 
-    const Date &getDate() const;
-
-    void setDate(const Date &date);
+    Person();
 };
 
 #endif

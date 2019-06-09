@@ -10,21 +10,20 @@ private:
     int day;
     int month;
     int year;
-
-public:
-    Date(int day, int month, int year);
-
+protected:
     int getDay() const;
+    int getMonth() const;
+    int getYear() const;
+public:
+    Date();
+
+    virtual ~Date();
 
     void setDay(int day);
-
-    int getMonth() const;
-
     void setMonth(int month);
-
-    int getYear() const;
-
     void setYear(int year);
+
+    string getDate() const;
 };
 
 #endif

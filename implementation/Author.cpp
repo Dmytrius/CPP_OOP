@@ -1,20 +1,17 @@
 
 #include "../interfaces/Author.h"
 
-Author::Author(const Person &person, const Post &post) : person(person), post(post) {}
+Author::Author(const string &surname, const string &name, const Date &date, Post *post) : Person(surname, name, date),
+                                                                                          post(post) {}
 
-const Person &Author::getPerson() const {
-    return person;
-}
-
-void Author::setPerson(const Person &person) {
-    Author::person = person;
-}
-
-const Post &Author::getPost() const {
-    return post;
-}
-
-void Author::setPost(const Post &post) {
+void Author::setPost1(Post *post) {
     Author::post = post;
 }
+
+Author::~Author() {
+
+}
+
+
+
+

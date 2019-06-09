@@ -3,7 +3,12 @@
 
 
 class Post {
-enum post {assistent, senior_lecturer, docent, professor};
+enum post {
+    assistent,
+    senior_lecturer,
+    docent,
+    professor
+    };
 };
 
 #endif

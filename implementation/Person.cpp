@@ -3,9 +3,10 @@
 #include "../interfaces/Date.h"
 
 using namespace std;
+Person::Person() {}
+Person::Person(const string surnamePerson, const string namePerson, const Date dateBirthday) {
 
-Person::Person(const string &surname, const string &name, const Date &date) : surname(surname), name(name),
-                                                                              date(date) {}
+}
 
 const string &Person::getSurname() const {
     return surname;
@@ -23,10 +24,8 @@ void Person::setName(const string &name) {
     Person::name = name;
 }
 
-const Date &Person::getDate() const {
-    return date;
+Person::~Person() {
+    cout << "delete Person";
 }
 
-void Person::setDate(const Date &date) {
-    Person::date = date;
-}
+

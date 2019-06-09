@@ -3,20 +3,14 @@
 
 #include "Author.h"
 
-class Article {//TODO: agregation Date, Author
+class Article : public Author, public Date {
 private:
-    Author author;
     string title;
     int namberOfPages;
     float namberOfPapers;
-    Date date;
 
 public:
     Article(const Author &author, const string &title, int namberOfPages, float namberOfPapers, const Date &date);
-
-    const Author &getAuthor() const;
-
-    void setAuthor(const Author &author);
 
     const string &getTitle() const;
 
@@ -30,9 +24,6 @@ public:
 
     void setNamberOfPapers(float namberOfPapers);
 
-    const Date &getDate() const;
-
-    void setDate(const Date &date);
 };
 
 #endif
