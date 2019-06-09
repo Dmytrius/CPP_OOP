@@ -11,7 +11,21 @@ private:
     int numberPages;
     map <Author, Article> authors;
 public:
+    Journal(const list<Article> &listArticles, int numberPages, const map<Author, Article> &authors);
 
+    virtual ~Journal();
+
+    const list<Article> &getListArticles() const;
+
+    void setListArticles(const list<Article> &listArticles);
+
+    int getNumberPages() const;
+
+    void setNumberPages(int numberPages);
+
+    const map<Author, Article> &getAuthors() const;
+
+    void setAuthors(const map<Author, Article> &authors);
 };
 
 #endif

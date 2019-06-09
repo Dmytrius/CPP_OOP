@@ -10,4 +10,5 @@ add_executable(untitled main.cpp implementation/Date.cpp
         implementation/Article.cpp
         interfaces/Article.h implementation/Journal.cpp interfaces/Journal.h
         controllers/File.cpp controllers/File.h
+        exceptions/Exception.cpp exceptions/Exception.h
         )
