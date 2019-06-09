@@ -12,6 +12,7 @@
 cmake-build-debug/
 *.cmake
 *.make
+build
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
