@@ -9,6 +9,6 @@ add_executable(untitled main.cpp implementation/Date.cpp
         implementation/Author.cpp interfaces/Author.h  interfaces/Post.h
 #        implementation/Article.cpp
 #        interfaces/Article.h implementation/Journal.cpp interfaces/Journal.h
-        controllers/WriteFile.cpp controllers/WriteFile.h
+        controllers/File.cpp controllers/File.h
 #        controllers/ReadFile.h controllers/ReadFile.cpp
         )
